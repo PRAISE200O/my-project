@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+    
+}
+.contact{
+position: relative;
+min-height: 10vh;
+padding: 50px 100px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+border: 10px;
+width:50%;
+background-color: blue;
+margin: auto;
+display: block;
+color: white;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.contact.content{
+    max-width: 800px;
+    text-align: center ;
+
+}
+.contact.content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: white ;
+
+}
+.contact.content p{
+    font-weight: 300;
+    color: white;
+
+}
+.contact-info{
+    margin-top: 10px;
+
+}
+img{
+    width: 200px;
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+.social-icons{ 
+margin-top: 50px;
+justify-content: center;
+align-items: center;
+
+}
+.social-icons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color:none;
+    margin: 10px;
+    border-radius: 50%;
+}
+.social-icons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.social-icons a:hover{
+    background-color:blue ;
+    transition: 0.5s;
+    
+}
+.social-icons a:hover i{
+    color:white;
+    transition: 0.5s;
+}
+.contact-form{
+ width: 60%;
+ padding: 40px;
+ background: #fff;
+ color: black;
+
+ 
+ margin: auto;
+ display: block;
+ margin-top: 50px;
+ 
+
+}
+.contact-form h2{
+    font-size: 30px;
+     
+    font-weight: 500;
+}
+.contact-form.input-box{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+
+}
+.container{
+    width: 100px;
+    display: flex;
+    margin: 10px;
+    display: block;
+    margin-top: 30px;
+
+
+}
+.container.contact-info{
+    width: 50px;
+    display: flex;
+    direction: column;
+}
+.container.contact-info.box{
+    position: relative;
+    padding: 20px 0;
+    display:  flex;
+
+}
+.contanier.contact-info.box .text h2{
+    font-weight: 500;
+    color: blue;
+}
+.contact-form .input-box input,
+.contact-form .input-box textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom:  2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contact-form .input-box span{
+    position: absolute;
+    left: 35%;
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+
+  
+}
+.contact-form .input-box input:focus ~ span,
+.contact-form .input-box input:valid ~ span,
+.contact-form .input-box textarea:focus ~ span,
+.contact-form .input-box textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+
